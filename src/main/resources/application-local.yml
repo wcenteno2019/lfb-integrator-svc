@@ -1,0 +1,6 @@
+services:
+  transacciones:
+    get-all-accounts: http://localhost:9091/lfb/transacciones/obtener-cuentas
+    transfer: http://localhost:9091/lfb/transacciones/transfer
+    pago-tarjeta: http://localhost:9091/lfb/transacciones/pago-tarjeta
+    pago-prestamo: http://localhost:9091/lfb/transacciones/pago-prestamo
